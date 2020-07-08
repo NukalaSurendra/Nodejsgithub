@@ -4,9 +4,9 @@
     "Connecting IBM Watson Discovery to Salesforce Federated Search",
   "keywords": ["salesforce", "ibm", "node", "watson"],
   "website":
-    "https://github.com/muenzpraeger/trailhead-ibm-watson-federated-search",
+    "https://github.com/NukalaSurendar/Nodejsgithub",
   "repository":
-    "https://github.com/muenzpraeger/trailhead-ibm-watson-federated-search",
+    "https://github.com/NukalaSurendar/Nodejsgithub",
   "success_url": "/",
   "env": {
     "WATSON_USERNAME": {
