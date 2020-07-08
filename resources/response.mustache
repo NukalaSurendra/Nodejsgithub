@@ -12,9 +12,11 @@
     <opensearch:Query role="request" searchTerms="test" startIndex="0" count="10"/>
     {{#results}}
     <entry>
+        <title>{{Name}}</title>
+        <id>{{id}}</id>
         <sfdc:recordType>Watson Discovery</sfdc:recordType>
         <sfdc:Name>{{Name}}</sfdc:Name>
-        <sfdc:Title>{{Name}}</sfdc:Title>
+        <summary>{{bio}}</summary>
     </entry>
     {{/results}}
 </feed>
