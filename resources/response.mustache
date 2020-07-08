@@ -12,13 +12,11 @@
     <opensearch:Query role="request" searchTerms="test" startIndex="0" count="10"/>
     {{#results}}
     <entry>
-        <title>{{user}}</title>
+        <title>{{Name}}</title>
         <id>{{id}}</id>
         <sfdc:recordType>Watson Discovery</sfdc:recordType>
-        <sfdc:User>{{user}}</sfdc:User>
-        <sfdc:Twitter>{{twitterId}}</sfdc:Twitter>
-        <sfdc:Beverage>{{preferredBeverage}}</sfdc:Beverage>
-        <sfdc:Quotes>{{quotes}}</sfdc:Quotes>
+        <sfdc:Name>{{name}}</sfdc:User>
+        <sfdc:Product Type>{{ProductType__c}}</sfdc:Twitter>
         <summary>{{bio}}</summary>
     </entry>
     {{/results}}
